@@ -1,1 +1,1 @@
-# react-project-one
+# expensify-app
