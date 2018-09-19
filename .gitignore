@@ -1,1 +1,5 @@
 node_modeules/
+public/bundle.js
+public/bundle.js/map
+public/stylces.css
+public/styles.css.map
