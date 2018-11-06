@@ -6,7 +6,7 @@
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server -d --watch --host $IP --port $PORT --history-api-fallback --public $C9_HOSTNAME",
+    "dev-server": "webpack-dev-server",
     "test": " cross-env NODE_ENV=test jest --config=jest.config.json",
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
