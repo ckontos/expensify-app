@@ -16,3 +16,47 @@ const config = {
  
  export { firebase, googleAuthProvider, database as default };
  
+<<<<<<< HEAD
+=======
+//  firebase.database().ref('expenses').push({
+//      description: 'rent',
+//      note: 'January',
+//      amount: 1000,
+//      createdAt: '1/1/2018' 
+//  });
+ 
+//  firebase.database().ref().on('value', (snapshot) => {
+//      const data = snapshot.val();
+//      console.log(`${data.name} is a ${data.job.title} at ${data.job.company}`);
+//  }, (e) => {
+//      console.log("Error fetching the data", e);
+//  });
+ 
+//  setTimeout(() => {
+//       firebase.database().ref().update({
+//         'job/company': 'Google'
+//       });
+// }, 3500);
+ 
+//  firebase.database().ref().set({
+//      name: 'Dimitri Kontos',
+//      age: 26,
+//      stressLevel: 9,
+//      job: {
+//          title: 'software developer',
+//          company: 'google'
+//      }
+//  }).then(() => {
+//      console.log('Data has been saved');
+//  }).catch((e) => {
+//      console.log('This has failed', e);
+//  });
+
+// firebase.database().ref('isSingle').remove()
+//     .then(() => {
+//         console.log('isSingle was deleted');
+//     }).catch(() => {
+//         console.log('There was a problem while deleting isSingle');
+//     });
+ 
+>>>>>>> b6f8ec73ea363a3311a28c2858dff16411458f39
